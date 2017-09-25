@@ -8,10 +8,11 @@
 
 ```javascript
 {
-    content: '<RawContent>',
-    title: '<DocumentTitle>'
+    content: '<RawContent>', // from draft-js
+    title: '<DocumentTitle>' // string
 }
 ```
+## Example
 
 ```javascript
 import { saveAs } from 'file-saver'
